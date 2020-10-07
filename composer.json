@@ -1,20 +1,23 @@
 {
-    "name": "asantibanez/livewire-select",
+    "name": "delanobgt/livewire-select",
     "description": "Livewire dropdown select component",
     "keywords": [
         "asantibanez",
+        "irvindelano",
         "livewire-select"
     ],
-    "homepage": "https://github.com/asantibanez/livewire-select",
+    "homepage": "https://github.com/delanobgt/livewire-select",
     "license": "MIT",
     "type": "library",
-    "authors": [
-        {
-            "name": "Andrés Santibáñez",
-            "email": "santibanez.andres@gmail.com",
-            "role": "Developer"
-        }
-    ],
+    "authors": [{
+        "name": "Andrés Santibáñez",
+        "email": "santibanez.andres@gmail.com",
+        "role": "Developer"
+    } {
+        "name": "Irvin Delano",
+        "email": "irvindelano@gmail.com",
+        "role": "Developer"
+    }],
     "require": {
         "php": "^7.1",
         "illuminate/support": "^6.0|^7.0|^8.0",

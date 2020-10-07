@@ -1,5 +1,6 @@
 # Livewire Select
 
+This is a forked repo. Modified to support Livewire 2 and Laravel 8.
 Livewire component for dependant and/or searchable select inputs
 
 ### Preview
