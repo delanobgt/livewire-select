@@ -1,13 +1,13 @@
 <?php
 
-namespace Asantibanez\LivewireSelect;
+namespace Delanobgt\LivewireSelect;
 
 use Illuminate\Support\Collection;
 use Livewire\Component;
 
 /**
  * Class LivewireSelect
- * @package Asantibanez\LivewireSelect
+ * @package Delanobgt\LivewireSelect
  * @property string $name
  * @property string $placeholder
  * @property mixed $value

@@ -1,8 +1,8 @@
 <?php
 
-namespace Asantibanez\LivewireSelect\Tests;
+namespace Delanobgt\LivewireSelect\Tests;
 
-use Asantibanez\LivewireSelect\LivewireSelectServiceProvider;
+use Delanobgt\LivewireSelect\LivewireSelectServiceProvider;
 use Livewire\LivewireServiceProvider;
 use Orchestra\Testbench\TestCase as BaseCase;
 

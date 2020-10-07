@@ -2,7 +2,7 @@
     "name": "delanobgt/livewire-select",
     "description": "Livewire dropdown select component",
     "keywords": [
-        "asantibanez",
+        "delanobgt",
         "irvindelano",
         "livewire-select"
     ],
@@ -29,12 +29,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Asantibanez\\LivewireSelect\\": "src"
+            "Delanobgt\\LivewireSelect\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Asantibanez\\LivewireSelect\\Tests\\": "tests"
+            "Delanobgt\\LivewireSelect\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -48,10 +48,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Asantibanez\\LivewireSelect\\LivewireSelectServiceProvider"
+                "Delanobgt\\LivewireSelect\\LivewireSelectServiceProvider"
             ],
             "aliases": {
-                "LivewireSelect": "Asantibanez\\LivewireSelect\\LivewireSelectFacade"
+                "LivewireSelect": "Delanobgt\\LivewireSelect\\LivewireSelectFacade"
             }
         }
     }

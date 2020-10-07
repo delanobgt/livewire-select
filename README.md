@@ -5,14 +5,14 @@ Livewire component for dependant and/or searchable select inputs
 
 ### Preview
 
-![preview](https://github.com/asantibanez/livewire-select/raw/master/preview.gif) 
+![preview](https://github.com/delanobgt/livewire-select/raw/master/preview.gif) 
 
 ### Installation
 
 You can install the package via composer:
 
 ```bash
-composer require asantibanez/livewire-select
+composer require delanobgt/livewire-select
 ```
 
 ### Requirements
@@ -87,7 +87,7 @@ To render the component in a view, just use the Livewire tag or include syntax
 
 You'll see on screen a select input with some custom styles with your defined values
 
-![preview](https://github.com/asantibanez/livewire-select/raw/master/basic.gif)
+![preview](https://github.com/delanobgt/livewire-select/raw/master/basic.gif)
 
 Nothing fancy there. Now, let's make another select input depend on its value.
 
@@ -148,7 +148,7 @@ With these two snippets we have defined a select input that `depends-on` another
 select input with name `car_brand_id`. With this definition, we tell our component
 to listen to any updates on our `car_brand_id` input and be notified on changes.
 
-![preview](https://github.com/asantibanez/livewire-select/raw/master/dependant.gif)
+![preview](https://github.com/delanobgt/livewire-select/raw/master/dependant.gif)
 
 Notice in the `options()` method the use of two other helper methods: 
 `getDependingValue` and `hasDependency`. 
@@ -172,7 +172,7 @@ we can use the component and return all car models.
 
 It should look something like this
 
-![preview](https://github.com/asantibanez/livewire-select/raw/master/no-dependency.gif)
+![preview](https://github.com/delanobgt/livewire-select/raw/master/no-dependency.gif)
 
 ### Searchable inputs
 
@@ -190,7 +190,7 @@ the options returned in the `options()` method.
 
 Your input will look something like this
 
-![preview](https://github.com/asantibanez/livewire-select/raw/master/searchable.gif)
+![preview](https://github.com/delanobgt/livewire-select/raw/master/searchable.gif)
 
 To filter the options in the dropdown, you can use the `$searchTerm` parameter in the 
 `options()` method.
@@ -227,7 +227,7 @@ If you discover any security related issues, please email santibanez.andres@gmai
 
 ## Credits
 
-- [Andrés Santibáñez](https://github.com/asantibanez)
+- [Andrés Santibáñez](https://github.com/delanobgt)
 - [All Contributors](../../contributors)
 
 ## License

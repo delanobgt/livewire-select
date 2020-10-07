@@ -1,6 +1,6 @@
 <?php
 
-namespace Asantibanez\LivewireSelect;
+namespace Delanobgt\LivewireSelect;
 
 use Illuminate\Support\Facades\Blade;
 use Illuminate\Support\ServiceProvider;

@@ -1,8 +1,8 @@
 <?php
 
-namespace Asantibanez\LivewireSelect\Tests;
+namespace Delanobgt\LivewireSelect\Tests;
 
-use Asantibanez\LivewireSelect\LivewireSelect;
+use Delanobgt\LivewireSelect\LivewireSelect;
 use Illuminate\Foundation\Testing\WithFaker;
 use Livewire\LivewireManager;
 use Livewire\Testing\TestableLivewire;
